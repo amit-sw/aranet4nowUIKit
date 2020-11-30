@@ -3,19 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35512D6CB25A798F60EAAE57 /* Pods_aranet4nowUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2CEA1B94114867F8B84FCF6 /* Pods_aranet4nowUIKit.framework */; };
 		AA697D862570830600F76AEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA697D852570830600F76AEF /* AppDelegate.swift */; };
 		AA697D882570830600F76AEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA697D872570830600F76AEF /* SceneDelegate.swift */; };
 		AA697D8A2570830600F76AEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA697D892570830600F76AEF /* ViewController.swift */; };
 		AA697D8D2570830600F76AEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA697D8B2570830600F76AEF /* Main.storyboard */; };
 		AA697D8F2570830700F76AEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA697D8E2570830700F76AEF /* Assets.xcassets */; };
 		AA697D922570830700F76AEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA697D902570830700F76AEF /* LaunchScreen.storyboard */; };
+		AA697D9B2571877D00F76AEF /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA697D9A2571877D00F76AEF /* SettingsVC.swift */; };
+		AA697DA22571EF7E00F76AEF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA697DA12571EF7E00F76AEF /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1353BDC53CB0D2E2EECD3CB0 /* Pods-aranet4nowUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aranet4nowUIKit.debug.xcconfig"; path = "Target Support Files/Pods-aranet4nowUIKit/Pods-aranet4nowUIKit.debug.xcconfig"; sourceTree = "<group>"; };
+		A82D6A30046166445805E4F6 /* Pods-aranet4nowUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aranet4nowUIKit.release.xcconfig"; path = "Target Support Files/Pods-aranet4nowUIKit/Pods-aranet4nowUIKit.release.xcconfig"; sourceTree = "<group>"; };
 		AA697D822570830600F76AEF /* aranet4nowUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aranet4nowUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA697D852570830600F76AEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA697D872570830600F76AEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		AA697D8E2570830700F76AEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA697D912570830700F76AEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA697D932570830700F76AEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA697D9A2571877D00F76AEF /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		AA697DA12571EF7E00F76AEF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D2CEA1B94114867F8B84FCF6 /* Pods_aranet4nowUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aranet4nowUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35512D6CB25A798F60EAAE57 /* Pods_aranet4nowUIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,8 @@
 			children = (
 				AA697D842570830600F76AEF /* aranet4nowUIKit */,
 				AA697D832570830600F76AEF /* Products */,
+				AA697DA42571F07C00F76AEF /* Frameworks */,
+				E3B6DD80F6ACDCD38856B537 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +70,31 @@
 				AA697D852570830600F76AEF /* AppDelegate.swift */,
 				AA697D872570830600F76AEF /* SceneDelegate.swift */,
 				AA697D892570830600F76AEF /* ViewController.swift */,
+				AA697D9A2571877D00F76AEF /* SettingsVC.swift */,
 				AA697D8B2570830600F76AEF /* Main.storyboard */,
 				AA697D8E2570830700F76AEF /* Assets.xcassets */,
 				AA697D902570830700F76AEF /* LaunchScreen.storyboard */,
 				AA697D932570830700F76AEF /* Info.plist */,
+				AA697DA12571EF7E00F76AEF /* GoogleService-Info.plist */,
 			);
 			path = aranet4nowUIKit;
+			sourceTree = "<group>";
+		};
+		AA697DA42571F07C00F76AEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2CEA1B94114867F8B84FCF6 /* Pods_aranet4nowUIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3B6DD80F6ACDCD38856B537 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1353BDC53CB0D2E2EECD3CB0 /* Pods-aranet4nowUIKit.debug.xcconfig */,
+				A82D6A30046166445805E4F6 /* Pods-aranet4nowUIKit.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +104,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA697D962570830700F76AEF /* Build configuration list for PBXNativeTarget "aranet4nowUIKit" */;
 			buildPhases = (
+				EC5EC3E638B5E0F87230989E /* [CP] Check Pods Manifest.lock */,
 				AA697D7E2570830600F76AEF /* Sources */,
 				AA697D7F2570830600F76AEF /* Frameworks */,
 				AA697D802570830600F76AEF /* Resources */,
+				CCACFB622140A27040855129 /* [CP] Embed Pods Frameworks */,
+				2C2DFE209974F3B599E61832 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = aranet4nowUIKit;
+			packageProductDependencies = (
+			);
 			productName = aranet4nowUIKit;
 			productReference = AA697D822570830600F76AEF /* aranet4nowUIKit.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +145,8 @@
 				Base,
 			);
 			mainGroup = AA697D792570830600F76AEF;
+			packageReferences = (
+			);
 			productRefGroup = AA697D832570830600F76AEF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA697D922570830700F76AEF /* LaunchScreen.storyboard in Resources */,
+				AA697DA22571EF7E00F76AEF /* GoogleService-Info.plist in Resources */,
 				AA697D8F2570830700F76AEF /* Assets.xcassets in Resources */,
 				AA697D8D2570830600F76AEF /* Main.storyboard in Resources */,
 			);
@@ -132,12 +170,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C2DFE209974F3B599E61832 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-aranet4nowUIKit/Pods-aranet4nowUIKit-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-aranet4nowUIKit/Pods-aranet4nowUIKit-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-aranet4nowUIKit/Pods-aranet4nowUIKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCACFB622140A27040855129 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-aranet4nowUIKit/Pods-aranet4nowUIKit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-aranet4nowUIKit/Pods-aranet4nowUIKit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-aranet4nowUIKit/Pods-aranet4nowUIKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC5EC3E638B5E0F87230989E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-aranet4nowUIKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AA697D7E2570830600F76AEF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AA697D8A2570830600F76AEF /* ViewController.swift in Sources */,
+				AA697D9B2571877D00F76AEF /* SettingsVC.swift in Sources */,
 				AA697D862570830600F76AEF /* AppDelegate.swift in Sources */,
 				AA697D882570830600F76AEF /* SceneDelegate.swift in Sources */,
 			);
@@ -283,6 +381,7 @@
 		};
 		AA697D972570830700F76AEF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1353BDC53CB0D2E2EECD3CB0 /* Pods-aranet4nowUIKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +401,7 @@
 		};
 		AA697D982570830700F76AEF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A82D6A30046166445805E4F6 /* Pods-aranet4nowUIKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
